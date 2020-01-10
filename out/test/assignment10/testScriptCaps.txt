@@ -1,0 +1,10 @@
+Checkerboard 25
+sAVe test/testImageResult.png
+rainbOW vertical 200 300
+Save test/testImageResult.png
+LOAD test/testImage.png
+bluR
+sEPia
+mosAIC 500
+Dither
+SAVE test/testImageResult.png

@@ -1,0 +1,10 @@
+checkerboard 25
+save test/testImageResult.png
+rainbow vertical 200 300
+save test/testImageResult.png
+load test/testImage.png
+blur
+sepia
+mosaic 500
+dither
+save test/testImageResult.png
