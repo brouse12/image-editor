@@ -1,5 +1,10 @@
 # Image Processing Model, View, and Controller
-- Matthew O'Brien (ob775) and Brian Rouse (brouse12)
+- Java image editor with GUI and script-based UI
+- GUI UI includes undo/redo functionality
+
+## Contributors
+- Matthew O'Brien (ob775)
+- Brian Rouse (brouse12)
 
 ## Changelog 04/19/19
 
