@@ -1,12 +1,9 @@
-# CS 5004 Assignment 10 - Image Processing Model, View, and Controller
-- Matthew O'Brien and Brian Rouse
-- Original Submission: 04/01/19
-- Most Recent Update: 04/19/19
-
+# Image Processing Model, View, and Controller
+- Matthew O'Brien (ob775) and Brian Rouse (brouse12)
 
 ## Changelog 04/19/19
 
-* added a view that provides an interactive GUI mode, per the homework spec.
+* added a view that provides an interactive GUI mode.
 * modified Driver.main to let users specify -script or -interactive mode when launching.
 * modified controller to implement a Features interface, to be used by the view for command 
     callbacks.
@@ -67,27 +64,6 @@
     * The model's interface now includes methods to receive pixel data from the controller 
     (and validate that data), as well as methods to pass edited data back to the controller for I/O 
     purposes.
-
-## Sections Completed
-
-The model, view, controller, and driver, as specified in the HW8, HW9, and HW10 requirements. An 
-executable JAR file is included, as well as automated tests for the controller. The view is not 
-tested directly, but every command callback method that is linked to the GUI interface does have 
-tests. We did not write tests for the model, given that the results are best observed by humans, but 
-the model's responses to illegal arguments are indirectly tested in our controller tests.
-
-The image mosaic option was included in the last submission and is still included here. We have also 
-included undo and redo operations.
-
-## Images Used
-
-*manhattan-small.png aka testImage.png* - taken from course website at 
-https://course.ccs.neu.edu/cs5004/assignment8.html
-
-*bananas.png* - we own this image and are authorizing it for use in the project. this image was 
-submitted to meet hw8 and hw9 requirements, but is not required for this submission.
-
-*GUI_example.png* - we own this image and are authorizing it for use in the project.
 
 ## Program Structure
 
