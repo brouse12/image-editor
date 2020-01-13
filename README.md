@@ -3,8 +3,8 @@
 - GUI UI includes undo/redo functionality
 
 ## Contributors
-- Matthew O'Brien (ob775)
-- Brian Rouse (brouse12)
+- Matthew O'Brien (@ob775)
+- Brian Rouse (@brouse12)
 
 ## Changelog 04/19/19
 
